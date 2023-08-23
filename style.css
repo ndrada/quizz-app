@@ -43,6 +43,7 @@ h3 {
     align-items: flex-start;
     gap: 1.5rem;
     margin-bottom: 1rem;
+    color: #fff;
 }
 
 .input-group {
@@ -57,18 +58,19 @@ input {
 
 .btn {
     padding: 1.5rem;
-    background-color: #0ef;
+    background-color: #081b29;
     border-color: transparent;
     border-radius: 0.5rem;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    color: #081b29;
+    color: #fff;
     letter-spacing: 1px; 
     text-decoration: none;
     font-weight: 600;
     box-shadow: 0 0 5px #0ef, 
         0 0 25px #0ef;
     margin: 1rem;
+
 }
 
 .input, .btn {
@@ -79,6 +81,9 @@ input {
     background-color: #081b29 ;
     border-color: #0ef;
     color: #0ef;
+    box-shadow: 0 0 5px cyan,
+            0 0 25px cyan, 0 0 50px cyan,
+            0 0 100px cyan, 0 0 200px cyan
 }
 
 .hide {
@@ -87,9 +92,11 @@ input {
 
 #result {
     margin: 2rem auto;
+    color:#fff
 }
 
 #questions, #result {
     font-size: 1.5rem;
-    dont-weight: bold;
+    font-weight: bold;
+    color:#fff
 }
